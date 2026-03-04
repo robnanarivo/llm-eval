@@ -73,10 +73,6 @@ Explores LLM agent capabilities through the Wikipedia Game -- navigating between
   - **ReAct framework** -- Separates reasoning from action, allowing the agent to plan before acting
   - **Chat history management** -- Preserves full conversation history while summarizing verbose content to manage context length
   - **Reflexion / path testing** -- A tool that lets the agent test whether a proposed sequence of links connects, enabling planning before committing to moves
-- **WikiGame with rules** -- Adds constraints (e.g., no country pages, page length limits) to increase difficulty
-
-Key files:
-- `utils.py` -- Utility functions including Wikipedia page helpers, country lists, and expression evaluation
 
 ## Setup
 
