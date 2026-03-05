@@ -1,5 +1,7 @@
 # LLM Safety Evaluation Pipeline
 
+> **Note:** This repo is adapted from my solutions for the [ARENA](https://www.arena.education/) course (Chapter 3: LLM Evals). My original ARENA solutions can be found [here](https://github.com/robnanarivo/ARENA_3.0/tree/main/chapter3_llm_evals). The notebooks have been cleaned up and restructured as a standalone repository.
+
 An end-to-end project for evaluating large language model (LLM) safety properties. The pipeline spans threat modeling, automated dataset generation, structured evaluation with the [Inspect](https://inspect.ai-safety-institute.org.uk/) framework, and LLM agent elicitation experiments.
 
 The primary safety property investigated is **AI desire for self-preservation** -- the tendency for an AI to prioritize its own continuity even when doing so conflicts with ethical behavior. Additional properties explored include sycophancy, political bias, and alignment faking.
