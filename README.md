@@ -15,7 +15,7 @@ Establishes the conceptual foundation for the evaluation pipeline. This notebook
 
 - **Alignment faking replication** -- Reproduces a simplified version of the results from [Alignment Faking in Large Language Models](https://arxiv.org/abs/2412.14093) (Anthropic & Redwood, 2024). The experiment prompts Claude models with harmful queries, tagging conversations as "free tier" (training) or "paid tier" (deployment), and measures whether the model accepts harmful requests more often when it believes it is being trained on the conversation.
 - **Threat model analysis** -- Develops threat models for three safety-relevant properties: sycophancy, desire for self-preservation, and political bias. Each threat model identifies concrete real-world harms, causal pathways, and unsafe actions.
-- **Evaluation specification design** -- Translates abstract properties into operational definitions with specific measurement approaches, including MCQ-based question design for political bias detection.
+- **Evaluation specification design** -- Translates abstract properties into operational definitions with specific measurement approaches, including MCQ-based question design for the above properties.
 
 Key files:
 - `alignment_faking_system_prompt.txt` / `alignment_faking_examples.txt` -- Prompts used in the alignment faking replication experiment
