@@ -93,6 +93,4 @@ Explores LLM agent capabilities through the Wikipedia Game -- navigating between
 
 - **LLM APIs**: OpenAI (GPT-4o-mini), Anthropic (Claude 4.5 Sonnet)
 - **Evaluation framework**: [Inspect AI](https://inspect.ai-safety-institute.org.uk/) (UK AISI)
-- **Structured outputs**: Pydantic, Instructor
 - **Visualization**: Plotly
-- **Data**: AdvBench, HuggingFace datasets
