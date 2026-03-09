@@ -4,8 +4,7 @@
 
 An end-to-end project for evaluating large language model (LLM) safety properties. The pipeline spans threat modeling, automated dataset generation, structured evaluation with the [Inspect](https://inspect.ai-safety-institute.org.uk/) framework, and LLM agent elicitation experiments.
 
-The primary safety property investigated is **AI desire for self-preservation** -- the tendency for an AI to prioritize its own continuity even when doing so conflicts with ethical behavior. Additional properties explored include sycophancy, political bias, and alignment faking.
-
+The primary safety property investigated is **AI desire for self-preservation** -- the tendency for an AI to prioritize its own continuity even when doing so conflicts with ethical behavior.
 ## Project Structure
 
 ### [`01_threat_model/`](01_threat_model/)
